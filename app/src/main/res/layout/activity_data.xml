@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#5E35B1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/c1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/a2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All Bankbalance check"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:cardBackgroundColor="@color/black"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="80dp">
+
+                <ImageView
+                    android:id="@+id/t2"
+                    android:src="@drawable/l1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="1dp"
+    android:background="@drawable/design1"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank Balance"
+            android:textSize="16dp"
+            android:textColor="#9273D1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_gravity="bottom"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#49BC4E"
+            app:cardCornerRadius="7dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/p1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="8585585263"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/b1"
+                android:layout_width="23dp"
+                android:layout_height="21dp"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/a4" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/a5"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="80dp"/>
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHARE"
+            android:textSize="15dp"
+            android:textColor="#7C5EB8"
+            android:gravity="center|right"
+            android:layout_marginTop="57dp"
+            android:layout_marginRight="20dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="1dp"
+        android:background="@drawable/design1"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mini Statement"
+                android:textSize="16dp"
+                android:textColor="#7C5EB8"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_gravity="bottom"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#49BC4E"
+                app:cardCornerRadius="7dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp">
+
+                    <TextView
+                        android:id="@+id/p2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:text="8585585263"
+                        android:layout_gravity="center"/>
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/b2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/a4"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="10dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/a5"
+                android:layout_gravity="right|center"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="80dp"/>
+
+            <TextView
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SHARE"
+                android:textSize="15dp"
+                android:textColor="#7C5EB8"
+                android:gravity="center|right"
+                android:layout_marginTop="57dp"
+                android:layout_marginRight="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="1dp"
+        android:background="@drawable/design1"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer Care Number"
+                android:textSize="16dp"
+                android:textColor="#7C5EB8"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_gravity="bottom"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#49BC4E"
+                app:cardCornerRadius="7dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp">
+
+                    <TextView
+                        android:id="@+id/p3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="8585585263"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/b3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/a4"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="10dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/a5"
+                android:layout_gravity="right|center"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="80dp"/>
+
+            <TextView
+                android:id="@+id/s3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SHARE"
+                android:textSize="15dp"
+                android:textColor="#7C5EB8"
+                android:gravity="center|right"
+                android:layout_marginTop="57dp"
+                android:layout_marginRight="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#7154AA"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/a6"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|right"
+                app:cardBackgroundColor="#A48CD5"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Your Bank Account"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#7154AA"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/a7"
+               android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|right"
+                app:cardBackgroundColor="#A48CD5"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Your Bank ATM"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
